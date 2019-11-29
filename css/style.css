@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
-
+@import url('slideshow.css');
 * {
   box-sizing: border-box;
 }
@@ -15,10 +15,35 @@
 .fa:hover {
     opacity: 0.7;
 }
+
+.soc {
+  font-family: 'Font Awesome 5 Free';
+  padding: 2px;
+  font-size: 22px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.soc_twitter {
+  background: #000000;
+  color: white;
+}
+
+.soc_twitter:before {
+  content: "\f099";
+  display: inline-block;
+}
+
+
+
 .fa-twitter {
   background: #000000;
   color: white;
 }
+
 .fa-linkedin {
   background: #000000;
   color: white;
@@ -35,17 +60,23 @@
   background: #000000;
   color: white;
 }
+.fa-youtube {
+  background: #000000;
+  color: white;
+}
 
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {font-family: 'Josefin Sans', Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
